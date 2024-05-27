@@ -12,8 +12,10 @@ namespace Repository
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserAuditRepository, UserAuditRepository>();
             services.AddScoped<IUserPictureRepository, UserPictureRepository>();
+            services.AddScoped<IExceptionsRepository, ExceptionsRepository>();
+            services.AddScoped<IPostsRepository, PostsRepository>();
 
-        
+
         }
     }
 }

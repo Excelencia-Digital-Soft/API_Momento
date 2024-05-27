@@ -14,6 +14,7 @@ namespace Services
             services.AddScoped<ILoginServices,LoginServices>();
             services.AddScoped<IUsersServices, UsersServices>();
             services.AddScoped<IExceptionsServices, ExceptionsServices>();
+            services.AddScoped<IPostsServices, PostsServices>();
             
         }
     }

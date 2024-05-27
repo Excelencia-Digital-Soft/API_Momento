@@ -13,6 +13,8 @@ namespace Repository.Concreter
     {
         private MomentosAppContext _context = null;
 
+        protected MomentosAppContext Context => _context;
+
         //The following Variable is going to hold the DbSet Entity
         public DbSet<T> table = null;
 
